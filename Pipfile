@@ -9,6 +9,8 @@ djangorestframework = "~=3.12"
 django-filter = "*"
 django-environ = "*"
 dj-rest-auth = "*"
+django-allauth = "*"
+djangorestframework-simplejwt = "*"
 
 [dev-packages]
 black = "==21.7b0"
