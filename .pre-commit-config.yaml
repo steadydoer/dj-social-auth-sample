@@ -11,11 +11,15 @@ repos:
       - id: isort
         name: isort (python)
   - repo: https://github.com/pycqa/pylint
-    rev: pylint-2.7.4
+    rev: v2.11.1
     hooks:
       - id: pylint
         additional_dependencies: [
             django,
             djangorestframework,
+            django-filter,
+            dj-rest-auth,
+            django-environ,
+            pylint-django,
         ]
         exclude: migrations
