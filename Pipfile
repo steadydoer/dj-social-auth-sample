@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "~=3.2"
+djangorestframework = "~=3.12"
+django-filter = "*"
+django-environ = "*"
+dj-rest-auth = "*"
+
+[dev-packages]
+black = "==21.7b0"
+pylint-django = "*"
+pre-commit = "*"
+pytest-django = "*"
+pytest-factoryboy = "*"
+isort = "*"
+
+[requires]
+python_version = "3.8"
