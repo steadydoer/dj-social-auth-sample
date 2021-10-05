@@ -11,6 +11,8 @@ django-environ = "*"
 dj-rest-auth = "*"
 django-allauth = "*"
 djangorestframework-simplejwt = "*"
+requests = "*"
+django-extensions = "*"
 
 [dev-packages]
 black = "==21.7b0"
