@@ -331,7 +331,7 @@ max-statements=100
 max-parents=7
 
 # List of qualified class names to ignore when counting class parents (see R0901).
-ignored-parents=
+ignored-parents=rest_framework.viewsets.ModelViewSet
 
 # Maximum number of attributes for a class (see R0902).
 max-attributes=11

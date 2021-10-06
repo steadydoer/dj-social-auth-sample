@@ -21,5 +21,6 @@ repos:
             dj-rest-auth,
             django-environ,
             pylint-django,
+            pytest-factoryboy,
         ]
         exclude: migrations
